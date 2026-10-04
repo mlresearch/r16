@@ -1,0 +1,94 @@
+---
+booktitle: Proceedings of the 34th Conference on Uncertainty in Artificial Intelligence
+shortname: UAI
+year: '2018'
+start: &1 2018-08-06
+end: 2018-08-10
+conference_number: '34'
+volume: R16
+published: 2026-10-04
+firstpublished: 2018-08-06
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: UAI-2018
+month: 0
+cycles: false
+bibtex_editor: Globerson, Amir and Silva, Ricardo
+editor:
+- given: Amir
+  family: Globerson
+- given: Ricardo
+  family: Silva
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 34th Conference on Uncertainty in Artificial Intelligence
+    Held in Monterey, California, USA on 06-10 August 2018
+
+  Published as Reissue 16 by the Proceedings of Machine Learning Research on 04 October 2026.
+
+  Volume Edited by:
+    Amir Globerson
+    Ricardo Silva
+
+  Series Editors:
+    Tegan Emerson
+    Hoel Kervadec
+    Neil D. Lawrence
+date_str: 06--10 Aug
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/r16"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r16
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r16
+email: ''
+conference:
+  name: Uncertainty in Artificial Intelligence
+  url: https://www.auai.org/uai2018/
+  location: Monterey, California, USA
+  dates:
+  - *1
+  - 2018-08-07
+  - 2018-08-08
+  - 2018-08-09
+  - 2018-08-10
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: uai2018_clean.bib
+# Site settings
+# Original source:  uai2018_clean.bib
