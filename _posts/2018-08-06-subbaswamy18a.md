@@ -1,15 +1,15 @@
 ---
 abstract: Predictive models can fail to generalize from training to deployment environments
-  because of dataset shift, posing a threat to model re- liability in practice. As
+  because of dataset shift, posing a threat to model reliability in practice. As
   opposed to previous methods which use samples from the target distribution to reactively
   correct dataset shift, we propose using graphical knowledge of the causal mechanisms
-  relating variables in a pre- diction problem to proactively remove variables that
+  relating variables in a prediction problem to proactively remove variables that
   participate in spurious associations with the prediction target, allowing models
-  to gen- eralize across datasets. To accomplish this, we augment the causal graph
-  with latent counter- factual variables that account for the underlying causal mechanisms,
-  and show how we can es- timate these variables. In our experiments we demonstrate
+  to generalize across datasets. To accomplish this, we augment the causal graph
+  with latent counterfactual variables that account for the underlying causal mechanisms,
+  and show how we can estimate these variables. In our experiments we demonstrate
   that models using good estimates of the latent variables instead of the observed
-  variables transfer better from training to tar- get domains with minimal accuracy
+  variables transfer better from training to target domains with minimal accuracy
   loss in the training domain.
 title: 'Counterfactual Normalization: Proactively Addressing Dataset Shift Using Causal
   Mechanisms'

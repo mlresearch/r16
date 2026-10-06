@@ -1,12 +1,12 @@
 ---
 abstract: The paper begins by introducing the definition and construction of mutually
   unbiased bases, which are a widely used concept in quantum information processing
-  but have received lit- tle to no attention in the machine learning and statistics
-  literature. We demonstrate their use- fulness by using them to create a new sampling
+  but have received little to no attention in the machine learning and statistics
+  literature. We demonstrate their usefulness by using them to create a new sampling
   technique which offers an improvement on the previously well established bounds
-  of stochas- tic trace estimation. This approach offers a new state of the art single
-  shot sampling vari- ance while requiring O(log(n)) random bits for x $\in$Rn which
-  significantly improves on traditional methods such as fixed basis meth- ods, Hutchinson’s
+  of stochastic trace estimation. This approach offers a new state of the art single
+  shot sampling variance while requiring O(log(n)) random bits for x $\in$Rn which
+  significantly improves on traditional methods such as fixed basis methods, Hutchinson’s
   and Gaussian estimators in terms of the number of random bits required and worst
   case sample variance.
 title: Improved Stochastic Trace Estimation using Mutually Unbiased Bases

@@ -1,10 +1,10 @@
 ---
 abstract: Structural Causal Models are widely used in causal modelling, but how they
   relate to other modelling tools is poorly understood. In this paper we provide a
-  novel perspective on the re- lationship between Ordinary Differential Equa- tions
+  novel perspective on the relationship between Ordinary Differential Equations
   and Structural Causal Models. We show how, under certain conditions, the asymptotic
   behaviour of an Ordinary Differential Equation under non-constant interventions
-  can be mod- elled using Dynamic Structural Causal Models. In contrast to earlier
+  can be modelled using Dynamic Structural Causal Models. In contrast to earlier
   work, we study not only the effect of interventions on equilibrium states; rather,
   we model asymptotic behaviour that is dynamic under interventions that vary in time,
   and include as a special case the study of static equilibria.

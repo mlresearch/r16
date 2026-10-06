@@ -1,13 +1,12 @@
 ---
 abstract: Learning from small data sets is critical in many practical applications
-  where data col- lection is time consuming or expensive, e.g., robotics, animal experiments
+  where data collection is time consuming or expensive, e.g., robotics, animal experiments
   or drug design. Meta learning is one way to increase the data efficiency of learning
-  algorithms by general- izing learned concepts from a set of training tasks to unseen,
-  but related, tasks. Often, this relationship between tasks is hard coded or re-
-  lies in some other way on human expertise. In this paper, we frame meta learning
-  as a hi- erarchical latent variable model and infer the relationship between tasks
-  automatically from data. We apply our framework in a model- based reinforcement
-  learning setting and show that our meta-learning model effectively gen- eralizes
+  algorithms by generalizing learned concepts from a set of training tasks to unseen,
+  but related, tasks. Often, this relationship between tasks is hard coded or relies in some other way on human expertise. In this paper, we frame meta learning
+  as a hierarchical latent variable model and infer the relationship between tasks
+  automatically from data. We apply our framework in a model-based reinforcement
+  learning setting and show that our meta-learning model effectively generalizes
   to novel tasks by identifying how new tasks relate to prior ones from minimal data.
   This results in up to a 60% reduction in the average interaction time needed to
   solve tasks compared to strong baselines.
