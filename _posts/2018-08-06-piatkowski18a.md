@@ -7,7 +7,7 @@ abstract: Recent stochastic quadrature techniques for undirected graphical model
   for efficiently approximating the value of the partition function, as well as the
   associated pseudo-marginals. More precisely, for pairwise models with n vertices
   and m edges, the complexity can be reduced from O(dk) to O(k4 + kn + m), where d
-  $\geq$4m is the parameter dimension. We also consider the uses of stochastic quadrature
+  \geq 4m$ is the parameter dimension. We also consider the uses of stochastic quadrature
   for the problem of maximum-likelihood (ML) parameter estimation. For completely
   observed data, our analysis gives rise to a probabilistic bound on the log-likelihood
   of the model. Maximizing this bound yields an approximate ML estimate which, in
