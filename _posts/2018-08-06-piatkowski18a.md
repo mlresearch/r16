@@ -1,17 +1,17 @@
 ---
 abstract: Recent stochastic quadrature techniques for undirected graphical models
-  rely on near- minimax degree-k polynomial approximations to the model’s potential
-  function for inferring the partition function. While providing de- sirable statistical
-  guarantees, typical construc- tions of such approximations are themselves not amenable
-  to efficient inference. Here, we develop a class of Monte Carlo sampling algo- rithms
+  rely on nearminimax degree-k polynomial approximations to the model’s potential
+  function for inferring the partition function. While providing desirable statistical
+  guarantees, typical constructions of such approximations are themselves not amenable
+  to efficient inference. Here, we develop a class of Monte Carlo sampling algorithms
   for efficiently approximating the value of the partition function, as well as the
-  asso- ciated pseudo-marginals. More precisely, for pairwise models with n vertices
+  associated pseudo-marginals. More precisely, for pairwise models with n vertices
   and m edges, the complexity can be reduced from O(dk) to O(k4 + kn + m), where d
-  $\geq$4m is the parameter dimension. We also consider the uses of stochastic quadrature
-  for the problem of maximum-likelihood (ML) parameter esti- mation. For completely
+  \geq 4m$ is the parameter dimension. We also consider the uses of stochastic quadrature
+  for the problem of maximum-likelihood (ML) parameter estimation. For completely
   observed data, our analysis gives rise to a probabilistic bound on the log-likelihood
-  of the model. Maxi- mizing this bound yields an approximate ML estimate which, in
-  analogy to the moment- matching of exact ML estimation, can be inter- preted in
+  of the model. Maximizing this bound yields an approximate ML estimate which, in
+  analogy to the momentmatching of exact ML estimation, can be interpreted in
   terms of pseudo-moment-matching. We present experimental results illustrating the
   behavior of this approximate ML estimator.
 title: Fast Stochastic Quadrature for Approximate Maximum-Likelihood Estimation

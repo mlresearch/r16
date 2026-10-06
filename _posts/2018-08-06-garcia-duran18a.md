@@ -1,13 +1,13 @@
 ---
-abstract: We present KBLRN, a framework for end-to- end learning of knowledge base
-  representa- tions from latent, relational, and numerical fea- tures. KBLRN integrates
+abstract: We present KBLRN, a framework for end-to-end learning of knowledge base
+  representations from latent, relational, and numerical features. KBLRN integrates
   feature types with a novel combination of neural representation learning and probabilistic
   product of experts models. To the best of our knowledge, KBLRN is the first approach
-  that learns representa- tions of knowledge bases by integrating la- tent, relational,
-  and numerical features. We show that instances of KBLRN outperform ex- isting methods
+  that learns representations of knowledge bases by integrating latent, relational,
+  and numerical features. We show that instances of KBLRN outperform existing methods
   on a range of knowledge base completion tasks. We contribute a novel data set enriching
-  commonly used knowledge base completion benchmarks with numerical fea- tures. The
-  data sets are available under a per- missive BSD-3 license1. We also investigate
+  commonly used knowledge base completion benchmarks with numerical features. The
+  data sets are available under a permissive BSD-3 license1. We also investigate
   the impact numerical features have on the KB completion performance of KBLRN.
 title: 'KBlrn: End-to-End Learning of Knowledge Base Representations with Latent,
   Relational, and Numerical Features'

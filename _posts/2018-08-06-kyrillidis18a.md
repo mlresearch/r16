@@ -1,11 +1,11 @@
 ---
 abstract: 'We propose practical algorithms for entrywise ‘p-norm low-rank approximation,
   for p = 1 or p = 1. The proposed framework, which is non-convex and gradient-based,
-  is easy to implement and typically attains better approx- imations, faster, than
+  is easy to implement and typically attains better approximations, faster, than
   state of the art. From a theoretical standpoint, we show that the proposed scheme
   can attain (1 + ")- OPT approximations. Our algorithms are not hyperparameter-free:
-  they achieve the desider- ata only assuming algorithm’s hyperparame- ters are known
-  apriori—or are at least approx- imable. I.e., our theory indicates what problem
+  they achieve the desiderata only assuming algorithm’s hyperparameters are known
+  apriori—or are at least approximable. I.e., our theory indicates what problem
   quantities need to be known, in order to get a good solution within polynomial time,
   and does not contradict to recent inapproximabilty results, as in [46].'
 title: Simple and practical algorithms for $\ell_p$-norm low-rank approximation
