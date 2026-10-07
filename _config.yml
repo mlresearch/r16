@@ -2,7 +2,7 @@
 booktitle: Proceedings of the 34th Conference on Uncertainty in Artificial Intelligence
 shortname: UAI
 year: '2018'
-start: &1 2018-08-06
+start: 2018-08-06
 end: 2018-08-10
 conference_number: '34'
 volume: R16
@@ -72,7 +72,7 @@ conference:
   url: https://www.auai.org/uai2018/
   location: Monterey, California, USA
   dates:
-  - *1
+  - 2018-08-06
   - 2018-08-07
   - 2018-08-08
   - 2018-08-09
